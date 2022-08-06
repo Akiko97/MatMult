@@ -1,0 +1,5 @@
+# ninja log v5
+42	77	1654414240182433746	matmultc_without_nested	2e9ce5e2932e05f
+1	42	1654414240146710750	CMakeFiles/matmultc_without_nested.dir/main.c.o	d009f569a0bf0439
+1	56	1654416896728438040	CMakeFiles/matmultc_without_nested.dir/main.c.o	f1794a2445001e6c
+56	88	1654416896761533161	matmultc_without_nested	e7bfb0c38cb2dbe8

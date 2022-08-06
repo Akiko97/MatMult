@@ -1,0 +1,5 @@
+# ninja log v5
+0	35	1654412321792095866	CMakeFiles/matmulc_without_nested_new.dir/main.c.o	c0b42669e41db01c
+36	68	1654412321826007067	matmulc_without_nested_new	8c6d2252f5c6baee
+0	41	1654412687084051837	CMakeFiles/matmulc_without_nested_new.dir/main.c.o	c0b42669e41db01c
+41	75	1654412687118174706	matmulc_without_nested_new	8c6d2252f5c6baee

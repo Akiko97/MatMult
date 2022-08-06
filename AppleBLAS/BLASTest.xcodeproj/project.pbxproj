@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0073BEF28881CE800545CFF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C0073BEE28881CE800545CFF /* main.c */; };
+		C0073BFC28885A4D00545CFF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C0073BFB28885A4D00545CFF /* main.c */; };
+		C0073C0A2888637100545CFF /* libopenblasp-r0.3.20.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C0073C0128885C3300545CFF /* libopenblasp-r0.3.20.dylib */; };
+		C0073C0B2888637100545CFF /* libopenblasp-r0.3.20.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = C0073C0128885C3300545CFF /* libopenblasp-r0.3.20.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C0073BE928881CE800545CFF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		C0073BF728885A4D00545CFF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		C0073C0C2888637100545CFF /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C0073C0B2888637100545CFF /* libopenblasp-r0.3.20.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C0073BEB28881CE800545CFF /* BLASTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BLASTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0073BEE28881CE800545CFF /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		C0073BF928885A4D00545CFF /* TestOpenBLAS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestOpenBLAS; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0073BFB28885A4D00545CFF /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		C0073C0128885C3300545CFF /* libopenblasp-r0.3.20.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libopenblasp-r0.3.20.dylib"; path = "../../../../opt/homebrew/Cellar/openblas/0.3.20/lib/libopenblasp-r0.3.20.dylib"; sourceTree = "<group>"; };
+		C0073C092888631F00545CFF /* libopenblasp-r0.3.20.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libopenblasp-r0.3.20.a"; path = "../../../../opt/homebrew/Cellar/openblas/0.3.20/lib/libopenblasp-r0.3.20.a"; sourceTree = "<group>"; };
+		C0073C0D2888665D00545CFF /* TestOpenBLAS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestOpenBLAS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0073BE828881CE800545CFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0073BF628885A4D00545CFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0073C0A2888637100545CFF /* libopenblasp-r0.3.20.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0073BE228881CE800545CFF = {
+			isa = PBXGroup;
+			children = (
+				C0073BED28881CE800545CFF /* BLASTest */,
+				C0073BFA28885A4D00545CFF /* TestOpenBLAS */,
+				C0073BEC28881CE800545CFF /* Products */,
+				C0073C0028885C3300545CFF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C0073BEC28881CE800545CFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0073BEB28881CE800545CFF /* BLASTest */,
+				C0073BF928885A4D00545CFF /* TestOpenBLAS */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0073BED28881CE800545CFF /* BLASTest */ = {
+			isa = PBXGroup;
+			children = (
+				C0073BEE28881CE800545CFF /* main.c */,
+			);
+			path = BLASTest;
+			sourceTree = "<group>";
+		};
+		C0073BFA28885A4D00545CFF /* TestOpenBLAS */ = {
+			isa = PBXGroup;
+			children = (
+				C0073C0D2888665D00545CFF /* TestOpenBLAS.entitlements */,
+				C0073BFB28885A4D00545CFF /* main.c */,
+			);
+			path = TestOpenBLAS;
+			sourceTree = "<group>";
+		};
+		C0073C0028885C3300545CFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0073C092888631F00545CFF /* libopenblasp-r0.3.20.a */,
+				C0073C0128885C3300545CFF /* libopenblasp-r0.3.20.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0073BEA28881CE800545CFF /* BLASTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0073BF228881CE800545CFF /* Build configuration list for PBXNativeTarget "BLASTest" */;
+			buildPhases = (
+				C0073BE728881CE800545CFF /* Sources */,
+				C0073BE828881CE800545CFF /* Frameworks */,
+				C0073BE928881CE800545CFF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLASTest;
+			productName = BLASTest;
+			productReference = C0073BEB28881CE800545CFF /* BLASTest */;
+			productType = "com.apple.product-type.tool";
+		};
+		C0073BF828885A4D00545CFF /* TestOpenBLAS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0073BFD28885A4D00545CFF /* Build configuration list for PBXNativeTarget "TestOpenBLAS" */;
+			buildPhases = (
+				C0073BF528885A4D00545CFF /* Sources */,
+				C0073BF628885A4D00545CFF /* Frameworks */,
+				C0073BF728885A4D00545CFF /* CopyFiles */,
+				C0073C0C2888637100545CFF /* Embed Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestOpenBLAS;
+			productName = TestOpenBLAS;
+			productReference = C0073BF928885A4D00545CFF /* TestOpenBLAS */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0073BE328881CE800545CFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C0073BEA28881CE800545CFF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					C0073BF828885A4D00545CFF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = C0073BE628881CE800545CFF /* Build configuration list for PBXProject "BLASTest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0073BE228881CE800545CFF;
+			productRefGroup = C0073BEC28881CE800545CFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0073BEA28881CE800545CFF /* BLASTest */,
+				C0073BF828885A4D00545CFF /* TestOpenBLAS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0073BE728881CE800545CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0073BEF28881CE800545CFF /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0073BF528885A4D00545CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0073BFC28885A4D00545CFF /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C0073BF028881CE800545CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C0073BF128881CE800545CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C0073BF328881CE800545CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47R24DDADG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0073BF428881CE800545CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47R24DDADG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C0073BFE28885A4D00545CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TestOpenBLAS/TestOpenBLAS.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47R24DDADG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				HEADER_SEARCH_PATHS = "/opt/homebrew/opt/openblas/include/**";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/opt/homebrew/opt/openblas/lib/**",
+					/opt/homebrew/Cellar/openblas/0.3.20/lib,
+				);
+				OTHER_LDFLAGS = "-lopenblas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0073BFF28885A4D00545CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TestOpenBLAS/TestOpenBLAS.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47R24DDADG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				HEADER_SEARCH_PATHS = "/opt/homebrew/opt/openblas/include/**";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/opt/homebrew/opt/openblas/lib/**",
+					/opt/homebrew/Cellar/openblas/0.3.20/lib,
+				);
+				OTHER_LDFLAGS = "-lopenblas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0073BE628881CE800545CFF /* Build configuration list for PBXProject "BLASTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0073BF028881CE800545CFF /* Debug */,
+				C0073BF128881CE800545CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0073BF228881CE800545CFF /* Build configuration list for PBXNativeTarget "BLASTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0073BF328881CE800545CFF /* Debug */,
+				C0073BF428881CE800545CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0073BFD28885A4D00545CFF /* Build configuration list for PBXNativeTarget "TestOpenBLAS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0073BFE28885A4D00545CFF /* Debug */,
+				C0073BFF28885A4D00545CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0073BE328881CE800545CFF /* Project object */;
+}
